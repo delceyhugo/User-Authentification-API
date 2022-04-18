@@ -1,13 +1,13 @@
 {
   "name": "authentification-api",
   "version": "1.0.0",
-  "description": "API d'autentification utilisant Node et Express avec JWT et MongoDB",
+  "description": "API d'authentification utilisant Node et Express avec JWT et MongoDB",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon -r dotenv/config app.js"
   },
-  "author": "",
+  "author": "Hugo Delcey",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
